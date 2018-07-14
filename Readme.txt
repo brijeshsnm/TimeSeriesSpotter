@@ -7,6 +7,9 @@ Development environment used
 How to run this code 
 ---------------------
 1. Open TimeSeriesSpotter.sln in VS2017
+2. Restore nuget packages
+   - Right click on project in solution explorer and then click Manage Nuget Package
+   - Click on restore at top right corner of Nuget package manager window (Might require VS restart)
 2. Keys "inputFileName" and "outputFileName" in App.config defines path for input and output file
    - Default input path is set to [BaseFolder]/Bin/[Debug|Release]/Working/Data_in.csv
    - Default outputpath is set to [BaseFolder]/Bin/[Debug|Release]/Working/Data_out.csv
