@@ -22,8 +22,8 @@ namespace TimeSeriesSpotter.Test.DataPlotter
             };
             csvPlotter.Plot(testItems);
             var fileOutput = File.ReadAllText(fileName);
-            var expectedOutput = @"02/07/2018, 10
-03/07/2018, 10
+            var expectedOutput = @"14/07/2018, 10
+15/07/2018, 10
 ";
             Assert.AreEqual(fileOutput, expectedOutput);
             File.Delete(fileName);
